@@ -1,14 +1,13 @@
 {
   "name": "proyecto",
-  "homepage": "https://XimenaCarrasco56.github.io/JuguetesCoquita.2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.0",
